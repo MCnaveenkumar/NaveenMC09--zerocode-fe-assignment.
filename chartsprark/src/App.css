@@ -1,1 +1,10 @@
-@import "tailwindcss";
+.background {
+
+  width: 400vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+}

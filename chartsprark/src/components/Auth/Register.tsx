@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { register, clearError } from '../../redux/authSlice';
+import '../../App.css';
 
 interface RegisterProps {
   onRegistered: () => void;
@@ -38,8 +39,8 @@ const Register: React.FC<RegisterProps> = ({ onRegistered }) => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-purple-400 via-blue-500 to-pink-400">
-    <div className="w-full max-w-md p-8 bg-black bg-opacity-90 rounded-2xl shadow-xl">
+    <div className=" flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-purple-400 via-blue-500 to-pink-400">
+    <div className="background w-full max-w-md p-8 bg-black bg-opacity-90 rounded-2xl shadow-xl">
       <div className="flex items-center justify-center">
         {/* Logo/icon can go here */}
       </div>
