@@ -52,4 +52,31 @@ export default tseslint.config({
   },
 })
 ```
+
+# ChartSpark
+
+## Usage Guide
+
+1. **Login/Register**
+   - You can login with any credentials. Authentication is handled by inbuilt Redux state (no backend).
+   - The credentials you provide during sign up (register) are the only ones accepted for login. Make sure to remember them!
+
+2. **After Login**
+   - Upon successful login, you are taken to the dashboard.
+   - The dashboard includes:
+     - **Analytics Dashboard:** See stats about your chat (total messages, user/bot messages, etc.).
+     - **Voice Input:** Use your microphone to input messages via speech-to-text.
+     - **Prompt Templates:** Quickly send predefined prompts to the bot.
+     - **Chat Export:** Download your chat as a `.txt` file.
+     - **Real-time Gemini API:** All bot responses are generated in real time using the Gemini API.
+
+3. **Features**
+   - Fully responsive design (works on mobile and desktop).
+   - Light/Dark mode toggle.
+   - Modern, clean chat UI with Markdown support for bot responses.
+   - Auto-scroll to the latest message.
+
+---
+
+For setup instructions, see below.
 "# NaveenMC09--zerocode-fe-assignment." 
